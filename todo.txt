@@ -1,0 +1,5 @@
+Design for Chrome Extension Web Store.
+Fix favicon not showing up.
+Add unsplash api to populate background images.
+Put a blur over image and then overlay text to add contrast.
+WorkWeekWakka?

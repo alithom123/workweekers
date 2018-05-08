@@ -1,0 +1,2 @@
+Newtab is at url: chrome://newtab.
+Bootstrap Theme: https://startbootstrap.com/template-overviews/agency/

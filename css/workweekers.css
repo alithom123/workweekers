@@ -1,0 +1,84 @@
+@font-face { font-family: KaushanScript-Regular; src: url('/fonts/Kaushan_Script/KaushanScript-Regular.ttf'); }
+
+h5 { font-family: KaushanScript-Regular, sans-serif; }
+h4 { font-family: KaushanScript-Regular, sans-serif; }
+h3 { font-family: KaushanScript-Regular, sans-serif; }
+h2 { font-family: KaushanScript-Regular, sans-serif; }
+h1 { font-family: KaushanScript-Regular, sans-serif; }
+p { font-family: KaushanScript-Regular, sans-serif; }
+
+/* .masthead {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("");
+} */
+
+/* header.masthead {
+  text-align: center;
+  color: white;
+  background-image: url("https://source.unsplash.com/1900x1268/?waves");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} */
+
+.masthead {
+  position: relative;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  /* min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem; */
+  /*  My Unsplash "Calm" Collection: 2080837 */
+  background-color: black;
+  background-image: url("https://source.unsplash.com/collection/1541044/1400x875") !important;
+  /* background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("https://source.unsplash.com/collection/1541044/1900x1268") !important; */
+  /* background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("https://source.unsplash.com/collection/2080837/1900x1268") !important; */
+  /* background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("https://source.unsplash.com/1900x1268/?waves") !important; */
+  /* background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("https://source.unsplash.com/1900x1268/?city,night") !important; */
+  /* background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("https://source.unsplash.com/1900x1268/?building,night") !important; */
+  /* background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("https://source.unsplash.com/1900x1268/?coffee") !important; */
+  /* background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("https://source.unsplash.com/collection/653655/1900x1268") !important; */
+  /* background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("https://source.unsplash.com/collection/1237640/1900x1268") !important; */
+  /* background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("https://source.unsplash.com/collection/2079451/1900x1268") !important; */
+
+
+
+  /* code, night, cityscape,  */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.overlay {
+    /* position: fixed; /* Sit on top of the page content */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    position: absolute;
+    background: #000;
+    opacity: .3;
+    z-index: 0;
+    /* top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; */
+    /*background-color: rgba(0,0,0,0.3); /* Black background with opacity */
+    /* z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    /* cursor: pointer; /* Add a pointer on hover */
+}
+
+#quote {
+    /* font-family: "Kaushan Script";
+    text-transform: none !important;
+    font-size: 6rem;
+    line-height: 9rem; */
+    color: white;
+    position: relative;
+    z-index: 5 !important;
+}
